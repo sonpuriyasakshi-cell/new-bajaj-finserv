@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: acropolis-bfhl
+    runtime: docker
+    plan: free
+    healthCheckPath: /bfhl
